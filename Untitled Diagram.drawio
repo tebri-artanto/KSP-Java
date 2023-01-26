@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T05:58:21.574Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="nRlDc1JlObAVMXIqtnsH" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-26T06:02:15.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="9id6yLRaW5a5n-xmB7xj" version="20.8.11" type="github">
   <diagram name="Page-1" id="jxArhalE56aJioaYpJxE">
     <mxGraphModel dx="1050" dy="513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -73,6 +73,15 @@
         </mxCell>
         <mxCell id="6TbpN-PjruIe6HiueJ3f-13" value="+ addElektronik(Elektronik) : void" style="whiteSpace=wrap;html=1;fillColor=none;align=left;" vertex="1" parent="1">
           <mxGeometry x="200" y="624" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6TbpN-PjruIe6HiueJ3f-14" value="Elektronik" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="540" width="140" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="6TbpN-PjruIe6HiueJ3f-15" value="# merek: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6TbpN-PjruIe6HiueJ3f-14">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="6TbpN-PjruIe6HiueJ3f-16" value="# harga: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="6TbpN-PjruIe6HiueJ3f-14">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
